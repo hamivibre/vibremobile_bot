@@ -1,0 +1,165 @@
+
+/* منوی هدر */
+.header-1 .header-menu .right-side .main-menu-inner li {
+    font-size: 15px;
+}
+
+#side_center .header .subtitle {
+    font-size: 13px;
+}
+
+.menu-2 {
+    justify-content: center;
+}
+
+/* نمادهای فوتر */
+.footer-1 .footer-bottom .footer-namads .bannerapp {
+    width: auto;
+    max-width: none;
+    height: 110px;
+}
+
+.mode_mobile .footer-1 .footer-namads .namads-item .bannerapp {
+    height: 50px;
+    width: auto;
+}
+
+.mode_mobile .footer-1 .footer-namads {
+    display: grid !important;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.mode_mobile .footer-1 .footer-namads .namads-item {
+    width: 100px;
+}
+
+/* استایل جستجو */
+.search-area .search-form {
+    border: 1px solid #e2e2e2;
+}
+
+.search-area .search-form .form-control {
+    padding-bottom: 20px;
+    box-shadow: none;
+}
+
+.search-area .search-form .form-control:focus {
+    background-color: transparent;
+}
+
+.search-area .search-form #search_filter {
+    padding: 7px 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #e2e2e2;
+}
+
+.header-1 .search-area #down-header {
+    color: #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* حذف فیلد URL دیدگاه */
+#tr_comment_url {
+    display: none;
+}
+
+/* حذف بخش‌هایی از محصول */
+.product.mode-1 .body-top .side-part .label-box,
+.products .mode-2 .thumb .head .product-rate {
+    display: none;
+}
+
+/* نشان سفارشی */
+.products.mode-3 .thumb .badges li.badge-special {
+    position: absolute;
+    z-index: 99;
+    top: 10px;
+    left: 40%;
+    padding: 3px;
+    background-color: #dd6969;
+}
+
+.products.mode-3 .thumb .badges li.badge-special::before {
+    content: 'سفارشی';
+}
+
+.mode_mobile .products.mode-3 .badges li.badge-special {
+    display: block;
+    position: unset;
+    font-size: 12px;
+}
+
+/* تگ ویژه در محصول */
+.product.mode-one .section-center .info span.special {
+    font-size: 0;
+    padding: 3px;
+    background-color: #dd6969;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+.product.mode-one .section-center .info span.special::before {
+    content: "سفارشی";
+    font-size: 14px;
+    display: block;
+    color: #fff;
+}
+
+/* آیکون درگاه پرداخت */
+.payPingIcon {
+    width: 3px;
+    height: 3px;
+}
+
+/* اسنپ پی در صفحه محصول */
+.product .snapp-pay {
+    padding: 10px;
+    background: #e8f3fe;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+}
+
+.product .snapp-pay p {
+    display: grid;
+    margin-bottom: 0;
+}
+
+.product .snapp-pay p span:nth-child(1) {
+    color: #2e343b;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.product .snapp-pay p span {
+    color: #0089ff;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/* حالت موبایل اسنپ پی */
+.mode_mobile .product .snapp-pay {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* نوار بالا موبایل */
+.off-header.mobile {
+    background-color: #F7C600 !important;
+    padding: 10px !important;
+    border-radius: 8px !important;
+}
+
+.off-header.mobile .title {
+    color: #333333 !important;
+    font-weight: 700 !important;
+    font-size: 18px !important;
+}
